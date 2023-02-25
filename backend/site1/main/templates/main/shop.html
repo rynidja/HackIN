@@ -1,0 +1,9 @@
+<h1>The real Shop is on site :)</h1>
+<h3>that's just a demo*</h3>
+{% if authenticatd %}
+  hey, {{ response.user.name }}, you are logged in!
+{% endif %}
+<button type="button" class="btn btn-success"><a href="/shop">Home</a></button>
+<button type="button" class="btn btn-success"><a href="/login">Login</a></button>
+<button type="button" class="btn btn-success"><a href="/logout">Logout</a></button>
+<button type="button" class="btn btn-success"><a href="/register">Register</a></button>
